@@ -21,3 +21,7 @@ const myFather = new Person("john", "Cho", 56, "brown");
 myFather.job = "structural Engineer";
 
 console.log(myFather)
+
+let text  = `Ino Chika Cho is my favourite duo so far`;
+let char = text.substr(4,10)
+console.log(char)
