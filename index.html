@@ -13,8 +13,18 @@
 
     <script>
         const fruits = ["Banana", "Orange", "Pineapple", "Cashew"];
+
+       //get the lenght of all the fruits  
         let fLen = fruits.length;
-        document.getElementById("demo").innerHTML = fLen
+        
+        // create a variable to store all the texts 
+        let text = "</ul>";
+        for (let i = 0; i < fLen; i++){
+            text += "<li>" + fruits[i] + "</li>";
+        }
+
+        text += "</ul>"
+        document.getElementById("demo").innerHTML = text
     </script>
 </body>
 </html>
